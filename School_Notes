@@ -1,0 +1,70 @@
+Javascript (JS): is a front end development language
+    - adds extra functions and customizations to enhance the user expereince
+    - ex: when you make a Google search
+    - JS is a coding language that was designed to enhance HTML by providing visualizations (like dashboards, tables, images, maps, graphs, etc.)
+
+For Module 11 we will be making a dynamic webpage
+    - accept user inputs and adjust accordingly
+    - built by inserting JavaScript (JS) into an HTML page 
+    - we are taking UFO data and storing it into a JS array/list. The table can be filtered by webpage users on certain criteria (like date, location, etc.). JS will be the primary coding language.
+    - JS  array -> HTML table
+    - dynamic table = JS = built in the app.js file
+    - webpage = HTML = built in the index.html file
+    - items Dana wants included in on the webpage:
+        - navigation bar, page header, article title, article paragraph, filters for table, table of data
+        - visualized in the storyboard
+
+ECMAScript (ES): the name of the most recent large JS update
+    - ES was built to help standardize JavaScript through guidelines and rules for JS to follow
+
+Important aspects of JS:
+    - case sensitive
+    - semicolons - best practice to end statements with one
+        - Example:
+            // Priting a string with JavaScript
+            console.log("Hellow, world!");
+                - console.log = print() in Python
+    - statements and expressions
+        - statements = perform actions (ex: assigning a variable)
+        - expressions = create values (ex: using arithmetric)
+        - how to get to Development Tools (DevTools): Google - elipcies - more tools - developer tools
+            - Here we are accessing the "Console"
+            - So if we type the above console.log("Hello, world!") it will appear in the DevTool box
+    - code block
+        - in curly brackets
+        - what is in the curly brackets, or array/list, is considered to be properties of a JS object. The "properties" are also known as "key-value pairs" or "objects" like in Python.
+
+Code Syntax for JS:
+    - variables: var y=2;
+        - key words that can indicate you are declaring a variable = let, const, var
+            - var: global variable regardless of block
+            - Let: you can name the same variables different things if they are in the same "block". Once block is closed it will not reference prior variable names
+            - Const: variable name can't be renamed and is used once
+
+Storyboard: conceptualizing and building the layout of a webpage visually
+
+JS can be written in a .js file or in a console in the DevTools of a webpage
+
+In JS we use "function" to what is "def" in Python
+    - ex: function printHello(); vs def print_hello():
+
+Parameters: placeholders for values that change
+    - ex: function addition(a,b) {
+          return a+b;
+          }
+
+          a & b are the parameters as any number can be inputed for a and b
+
+Best practice is to only have two or fewer parameters per function, as it can slow and/or even crash your code
+
+Arrow functions: popular aspect of ES6 update and used by JS experts to convert standard functions into a single line of code
+    => is the syntax
+    ex: let square = (num) => return num **2;
+    - The arrow symbol indicates its a function, that is why the word function isn't included in the code. As well as the return and console.log() code syntax
+
+The output "undefined" in JS isn't a bad thing. It means the code was performed successfully and whatever was inputed was saved locally.
+    - if syntax is written in console and the console is closed, the code will be erased and you will need to start over.
+
+The equivalent to Python for loop in JS is forEach
+
+When creating an html file if you type "!" in the first line and hit enter it is a shortcut to autofill the basic HTML layout.
